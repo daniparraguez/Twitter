@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	background-image: url(../images/background.jpg);
+	background-size: 100%;	
+}
+
+header {
+	background-color: #1DA1F2;
+	height: 3em;
+	width: 100%;
+	padding-top: 1em;
+
+}
+
+.barra h1{
+	margin: 0;
+	text-align: center;
+	color:white;
+}
+
+.twittear {
+	text-align: right;
+	padding: 7em;
+
+
+}
+.left-block, .right-block {
+	height: auto;
+	width: 20em;
+	background-color: white;
+	text-align: center;
+	margin: 0; 
+	display: inline-block;
+	padding: 2em;
+	border-radius: 1em;
+}
+.right-block{ 
+    margin-left:20em;
+}
+
+textarea{
+	height: 10em;
+	width: 20em;
+	display: inline-block;
+	margin-left: 0; 
+	margin-bottom: 2em;
+	border-radius: 1em;
+}
+button{
+	text-decoration: none;
+	height: 3em;
+	width: 5em;
+}
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+	border-radius: 1em;
+
+}
+
+section .comments-container{
+	margin-top: 5em;
+}

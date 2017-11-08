@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter . Es lo que está pasando</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+   <header>
+     <div class="barra">
+     <h1 class="titulo">Twitter</h1>
+	 </div>
+	
+   </header>
+<!-- Twittear container-->
+<section class="twittear">          
+		<div class="container">
+		    <div class=left-block style="vertical-align: top;">
+		    	<h1>Reto del Código</h1>
+		    	<p>Bleh</p>
+		    	<hr>
+		    	<p>Blah</p>
+		    </div>
+		    <div class="right-block">
+		    <textarea class="txt" id="comment" placeholder="¿Qué estás pensando?" rows="4" cols="50" name="comment" form="usrform"></textarea>
+
+			<!--<textarea class="txt" id="comment" placeholder="¿Qué estás pensando?"></textarea>-->
+             <hr>
+			 <p class="char-left" style="text-align: right;"></p>
+			 
+			<button type="button" id="tweetbtn" onclick="add()">Tweet</button>
+			</div>
+		</div>
+</section>
+
+<section class="comments-container">
+         <!-- contenedor comentarios -->
+			<div id="cont"></div>	
+</section>
+<!-- Enlazando JS-->
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://use.fontawesome.com/78f0173ea7.js"></script>
+</body>
+
+</html>
