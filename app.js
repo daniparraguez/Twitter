@@ -1,3 +1,4 @@
+    
      function add(){
 
 	var comments = document.getElementById('comment').value;
@@ -22,10 +23,6 @@
 
 }
 /*
-function disable(){
-	 document.getElementById("tweetbtn").disabled = true;
-
-}
 
 tweetbtn.addEventListener('click', function(){
 	tweetbtn.classList.toggle('rojo');
@@ -45,6 +42,14 @@ tweetbtn.addEventListener('click', function(){
   	  msg.onkeydown = function(){
       setTimeout(function(){
       charLeft.innerHTML = maxChar - msg.value.length;
+
+      //disable button
+      
+      if(charLeft.innerHTML<=0 || charLeft.innerHTML==140){
+      var disable= document.getElementById("tweetbtn").disabled = true;
+      	return disable;
+      }
+     
 
        // whether or not to display warning class based on characters left
        var warnLabel = msg.value.length >= maxChar - maxCharWarn ? " warning" : "";
